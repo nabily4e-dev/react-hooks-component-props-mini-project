@@ -1,8 +1,10 @@
 import React from "react";
 
-function ArticleList() {
+function ArticleList(props) {
     return (
-
+        <main>
+            <Article/>
+        </main>
     )
 }
 
